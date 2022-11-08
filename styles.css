@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-}
+} /* reset default margin and padding set by browsers */
 
 body {
     background-color: rgb(87, 171, 177);
     color: rgb(34, 12, 12)
-}
+} /* setting up color scheme*/
 
 .heading {
     text-align: center;
