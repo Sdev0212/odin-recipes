@@ -7,3 +7,54 @@ body {
     background-color: rgb(87, 171, 177);
     color: rgb(34, 12, 12)
 }
+
+.heading {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.recipe a {
+    text-decoration: none;
+    color: rgb(34, 12, 12);
+}
+
+img {
+    width: 100%;
+}
+
+.recipe-img {
+    width: auto;
+    height: 100%;
+}
+
+.img-container {
+height: 70vh;
+}
+
+.ingredients {
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+.instructions {
+    background-color: rgba(200, 200, 200, 0.3);
+    display: flexbox;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 40vw;
+}
+
+ol {
+    margin-left: 30px;
+}
